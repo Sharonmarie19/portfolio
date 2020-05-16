@@ -22,3 +22,21 @@ li {
     font-family: 'Philosopher', sans-serif; 
     font-size: 60px;
 }
+.images{
+    display: inline-block;
+    margin-left: 400px;
+}
+.nav{
+    text-align: center;
+    margin: 15px;
+    border-bottom: darkgrey;
+    border-style: solid;
+}
+td.discovery{
+    min-width: 450px;
+    max-width: 650px;
+    text-align:left;
+    padding: 15px;
+    margin: 0px;
+}
+
