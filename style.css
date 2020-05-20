@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(248, 248, 250);
+  background-color: rgb(76, 173, 238);
+  background-image: url(./images/A4\ -\ 1.png);
 }
 li {
   display: inline;
@@ -23,20 +24,17 @@ li {
     font-size: 60px;
 }
 .images{
-    display: inline-block;
-    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 .nav{
     text-align: center;
     margin: 15px;
     border-bottom: darkgrey;
     border-style: solid;
-}
-td.discovery{
-    min-width: 450px;
-    max-width: 650px;
-    text-align:left;
-    padding: 15px;
-    margin: 0px;
-}
+    display: flex;
+    flex-direction: row;
+
 
