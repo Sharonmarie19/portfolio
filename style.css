@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(76, 173, 238);
+ 
   background-image: url(./images/A4\ -\ 1.png);
 }
 li {
@@ -36,5 +36,8 @@ li {
     border-style: solid;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
+}
 
 
