@@ -1,6 +1,6 @@
 body {
  
-  background-image: url(./images/A4\ -\ 1.png);
+  background-color: ghostwhite;
 }
 li {
   display: inline;
@@ -8,10 +8,14 @@ li {
 }
 .header {
   text-align: left;
-  
-
-
-}
+  }
+ .label{
+   text-align: center;
+ }
+  .me{
+    text-align: center;
+    margin: 50px;
+  }
 .title {
   text-align: left;
   margin-left: 80px;
