@@ -45,14 +45,22 @@ flex-direction: row;
 }
 .bb{
   width: 400px;
+  position: relative;
+  bottom: 400px;
+  left:600px
   
 }
 .onboard{
+  position: relative;
+  right: 200px;
   
+
   width: 200px;
 }
 .home{
   width: 200px;
+  position: relative;
+  right: 100px;
 }
 
 .budget{
@@ -60,13 +68,11 @@ flex-direction: row;
 }
 .extend{
   width: 200px;
+  position: relative;
+  left: 100px;
+  top: 200px;
 }
 
-.container{
-  display: inline;
-  
-  
-}
 
 
 @media(min-width:550px;){
