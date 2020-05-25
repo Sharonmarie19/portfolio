@@ -53,10 +53,9 @@ flex-direction: row;
 .onboard{
   position: relative;
   right: 200px;
-  
-
   width: 200px;
 }
+
 .home{
   width: 200px;
   position: relative;
@@ -75,7 +74,7 @@ flex-direction: row;
 
 
 
-@media(min-width:550px;){
+@media(min-width:550px){
   .header {
     text-align: left;
     display: flex;
