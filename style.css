@@ -1,6 +1,6 @@
 body {
  
-  background-color: ghostwhite;
+  background-color: rgb(229, 243, 235);
 }
 li {
   display: inline;
@@ -8,7 +8,10 @@ li {
 }
 .header {
   text-align: left;
+  display: flex;
+flex-direction: row;
   }
+
  .label{
    text-align: center;
  }
@@ -16,32 +19,66 @@ li {
     text-align: center;
     margin: 50px;
   }
-.title {
-  text-align: left;
-  margin-left: 80px;
-  margin-top: 120px;
-  margin-bottom: 100px;
-}
 
 .name{
     font-family: 'Philosopher', sans-serif; 
     font-size: 60px;
 }
-.images{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
 .nav{
     text-align: center;
     margin: 15px;
-    border-bottom: darkgrey;
-    border-style: solid;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     
 }
+.my_photo{
+  width: 20%;
+  float:right;
+  padding-right: 10%;
+}
+.title{
+  margin-left: 300px;
+  justify-content: center;
+  margin-top: 100px;
+}
+.bb{
+  width: 400px;
+  
+}
+.onboard{
+  
+  width: 200px;
+}
+.home{
+  width: 200px;
+}
+
+.budget{
+  width: 200px;
+}
+.extend{
+  width: 200px;
+}
+
+.container{
+  display: inline;
+  
+  
+}
 
 
+@media(min-width:550px;){
+  .header {
+    text-align: left;
+    display: flex;
+  flex-direction: row;}
+  
+  .my_photo{
+    width: 40%;
+    float:right;
+    padding-right: 10%;
+  }
+
+}
