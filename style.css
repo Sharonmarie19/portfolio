@@ -1,89 +1,54 @@
-body {
- 
-  background-color: rgb(229, 243, 235);
+body{
+  background-color:black;
+
 }
-li {
+.nav ul{
+margin: 20px;
+padding: 10px 100px 10px 300px;
+border-style: inset;
+border-width: 1px; 
+border-color: rgb(27, 29, 31);
+
+}
+
+.nav li{
   display: inline;
-  margin-right: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  flex-direction: row;
+  
 }
-.header {
-  text-align: left;
+
+.header{
+  color: rgb(128, 136, 146);
+  
+}
+
+.container{
   display: flex;
-flex-direction: row;
-  }
+  justify-content: flex-start;
+}
+ img{
+  width: 15%;
+  padding: 25px;
+}
 
- .label{
-   text-align: center;
- }
-  .me{
-    text-align: center;
-    margin: 50px;
-  }
-
-.name{
-    font-family: 'Philosopher', sans-serif; 
-    font-size: 60px;
-}
-.nav{
-    text-align: center;
-    margin: 15px;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-.my_photo{
-  width: 20%;
-  float:right;
-  padding-right: 10%;
-}
-.title{
-  margin-left: 300px;
-  justify-content: center;
-  margin-top: 100px;
-}
-.bb{
-  width: 400px;
+.about_me{
+  width: 40%;
+  padding: 15px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: rgb(26, 24, 24);
   position: relative;
-  bottom: 400px;
-  left:600px
-  
+left: 500px;
+bottom: 50px;
+border-
+
 }
-.onboard{
+.about{
+  font-size: 150px;
+  color:rgb(5, 5, 5);
   position: relative;
-  right: 200px;
-  width: 200px;
-}
-
-.home{
-  width: 200px;
-  position: relative;
-  right: 100px;
-}
-
-.budget{
-  width: 200px;
-}
-.extend{
-  width: 200px;
-  position: relative;
-  left: 100px;
-  top: 200px;
-}
-
-
-
-@media(min-width:550px){
-  .header {
-    text-align: left;
-    display: flex;
-  flex-direction: row;}
-  
-  .my_photo{
-    width: 40%;
-    float:right;
-    padding-right: 10%;
-  }
-
+  left: 300px;
+  top: 100px;
 }
