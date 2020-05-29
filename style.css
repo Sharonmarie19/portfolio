@@ -59,4 +59,32 @@ box-shadow: 5px 5px 5px #1b1a1a;
 .logo{
   position: relative;
   left: 600px;
+  width: 40%;
+  padding: 15px;
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 10px;
+  border-color: rgb(26, 24, 24);
+  position: relative;
+left: 555px;
+bottom: 180px;
+-moz-box-shadow:5px 5px 5px #1d1b1b;
+-webkit-box-shadow: 5px 5px 5px #1b1a1a;
+box-shadow: 5px 5px 5px #1b1a1a;
+
+}
+.logo img{
+  width:45%;
+  float: left;
+  position: relative;
+  bottom: 50px;
+}
+.logo.wegame{
+width: 40%;
+position: relative;
+bottom: 60px;
+}
+.wegame{
+  position: relative;
+  bottom: 500px;
 }
