@@ -1,6 +1,6 @@
 body{
     background-color: #E5E5E5;
-    margin:0;
+   margin: 0px;
     
 }
 #hero-container{
@@ -19,20 +19,23 @@ body{
     
 }
 #nav-container a{
-    margin: 25px;
+    margin: 25px; 
     color: #9CA1A9;
     text-decoration: none;
     text-shadow: 2px 2px 4px #000000;
 }
-#intro-container{
+/* #intro-container{
     float: left;
     margin-top: 100px;
     color: #9CA1A9;
     margin-left: 280px;
-}
+}  */
 #img{
     box-shadow: 10px 10px 5px grey;
     position: relative;
     left: 170%;
     bottom: 150px;
+}
+#title{
+    margin:15px;
 }
